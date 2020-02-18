@@ -9,6 +9,8 @@ import { CarFormComponent } from './car-form/car-form.component';
 import { WorkspaceFormComponent } from './workspace-form/workspace-form.component';
 import { ReviewFormComponent } from './review-form/review-form.component';
 import { TripFormComponent } from './trip-form/trip-form.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { TripFormComponent } from './trip-form/trip-form.component';
     WorkspaceFormComponent,
     ReviewFormComponent,
     TripFormComponent,
+    NavbarComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
