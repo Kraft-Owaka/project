@@ -14,7 +14,10 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { AboutComponent } from './about/about.component';
 import {ReactiveFormsModule} from '@angular/forms';
 import {FormsModule} from '@angular/forms';
-import { WorkspaceListComponent } from './workspace-list/workspace-list.component'
+import { WorkspaceListComponent } from './workspace-list/workspace-list.component';
+import { WorkspaceInviteComponent } from './workspace-invite/workspace-invite.component';
+import { CarListComponent } from './car-list/car-list.component';
+import { LandingPageComponent } from './landing-page/landing-page.component'
 
 @NgModule({
   declarations: [
@@ -28,6 +31,9 @@ import { WorkspaceListComponent } from './workspace-list/workspace-list.componen
     NavbarComponent,
     AboutComponent,
     WorkspaceListComponent,
+    WorkspaceInviteComponent,
+    CarListComponent,
+    LandingPageComponent,
   ],
   imports: [
     BrowserModule,

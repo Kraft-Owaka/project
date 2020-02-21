@@ -1,33 +1,22 @@
-<div class="container-fluid">
-  <h2 class="text-center">Car Registration Form</h2>
-  <hr />
+<form [formGroup]="form" (ngSubmit)="createCar()">
+  <div class="form-group">
+    <label for="name">Owner Name </label>
+    <input type="text" class="form-control" placeholder="Owner Name" formControlName="owner_name" id="owner_name" required/>
+  </div>
 
-  <div class="row">
-    <div class="col-md-4"></div>
-    <div class="col-md-4">
-      <form>
+  <div class="form-group">
+    <label for="name">License plate</label>
+    <input type="text" class="form-control" placeholder="Enter license plate" formControlName="license_plate" id="license_plate" required/>
+  </div>
 
-        <div class="form-group">
-          <label for="username">Username</label>
-          <input type="text" class="form-control" placeholder="Enter your username" id="username" required />
-        </div>
+  <div class="form-group">
+    <label for="name">No. of seats</label>
+    <input type="text" class="form-control" placeholder="No. of seats" formControlName="noofseats" id="noofseats" required/>
+  </div>
 
-
-        <div class="form-group">
-          <label for="name">Number of Seats of Your Car</label>
-          <input type="number" class="form-control" placeholder="Enter number of seats of your car" id="seats"
-            required />
-        </div>
-
-        <div class="form-group">
-          <label for="location">Location</label>
-          <input type="text" class="form-control" placeholder="Enter location" id="location" required />
-        </div>
-
-        <button type="submit" class="btn btn-success">Submit</button>
-      </form>
-    </div>
+  <div class="form-group">
+    <button class="btn btn-primary"type="submit">Add car </button>
 
   </div>
-  <div class="col-md-4"></div>
-</div>
+
+  </form>
