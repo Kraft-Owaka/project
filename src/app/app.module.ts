@@ -13,7 +13,8 @@ import { TripFormComponent } from './trip-form/trip-form.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AboutComponent } from './about/about.component';
 import {ReactiveFormsModule} from '@angular/forms';
-import {FormsModule} from '@angular/forms'
+import {FormsModule} from '@angular/forms';
+import { WorkspaceListComponent } from './workspace-list/workspace-list.component'
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import {FormsModule} from '@angular/forms'
     TripFormComponent,
     NavbarComponent,
     AboutComponent,
+    WorkspaceListComponent,
   ],
   imports: [
     BrowserModule,
