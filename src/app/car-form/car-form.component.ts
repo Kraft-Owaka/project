@@ -37,6 +37,7 @@ createCar() {
      (error) => console.log(formData)
    )
 
+   this.router.navigate(['/view/'+public_id])
 }
   ngOnInit() {
   }

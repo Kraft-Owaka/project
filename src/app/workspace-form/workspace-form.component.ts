@@ -30,7 +30,7 @@ export class WorkspaceFormComponent implements OnInit {
       (error) => console.log(formData)
     );
       // console.log("Workspace created")
-
+      this.router.navigate(['/workspaces'])
   }
 
   ngOnInit() {
